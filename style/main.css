@@ -4,14 +4,19 @@
 }
 
 body{
-  width: 70%;
-  margin: 0 auto;
+  background: #ccc;
 }
 
-.header{
+#page{
+  width: 70%;
+  margin: 0 auto;
+  background: #ccc;
+}
+
+.main-header{
   height: 100px;
-  background: #90EE90;
   margin-bottom: 10px;
+  background: white;
 }
 
 .clearfix::after{
@@ -23,50 +28,50 @@ body{
 .navbar{
   height: 50px;
   width: 100%;
-  background: #008B8B;
+  background: white;
 }
 
 .colonna-sx{
   float: left;
   width: 30%;
-  background: #DC143C;
   height: 250px;
   margin: 10px;
+  background: white;
 }
 
 .colonna-cent{
   float: left;
   width: 45%;
   height: 600px;
-  background: #F0E68C;
   margin: 10px;
+  background: white;
 }
 
 .colonna-dx{
   float: left;
   width: 20%;
   height: 150px;
-  background: #F08080;
   margin: 10px;
+  background: white;
 }
 
 .colonna-two-dx{
   float: left;
   width: 20%;
   height: 150px;
-  background: #F08080;
   margin: 10px;
+  background: white;
 }
 
 .colonna-three-dx{
   float: left;
   width: 20%;
   height:150px;
-  background: #F08080;
   margin: 10px;
+  background: white;
 }
 
 .footer{
-  background: yellow;
-  padding: 10px
+  padding: 20px;
+  background: white;
 }
