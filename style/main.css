@@ -1,9 +1,11 @@
 *{
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Josefin Sans',sans-serif;
 }
 
 body{
+
   background: #ccc;
 }
 
@@ -45,6 +47,7 @@ body{
 
 .headrer-navbar-item a:hover{
   background: #000;
+  border-radius: 5px;
 }
 
 .clearfix::after{
@@ -74,6 +77,7 @@ body{
 
 .box-info{
   background: white;
+  border-radius: 5px;
 }
 
 .list_box{
@@ -82,6 +86,7 @@ body{
 
 .list_box-item{
   margin: 10px;
+  list-style: none;
 }
 
 .list_box-item a {
@@ -90,10 +95,12 @@ body{
 }
 
 .list_box-item a:hover{
-
+  font-size: 20px;
 }
 
 .box-text{
+  font-size: 20px;
+  border-radius: 5px;
   background: white;
   margin-bottom: 30px;
   padding:5px 20px;
@@ -105,8 +112,13 @@ body{
 }
 
 .box-img{
+  border-radius: 5px;
   background: white;
   margin-bottom: 10px;
+}
+
+.box-img:hover{
+
 }
 
 .card__image{
@@ -121,25 +133,33 @@ body{
 
 .main-footer{
   text-align: center;
+  width: 100%;
 }
 
-.footer-text{
-  height: 40px;
+.text-footer{
   background: white;
 }
 
 .footer-list{
   padding: 0;
+
 }
 
 .footer-list-item{
+  padding: 20px;
   list-style: none;
   float: left;
   width: calc(100% / 3);
-  height: 40px;
   background: white;
+  height: 80px;
 }
 
 .footer-list-item a{
   text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+
+.footer-list-item a:hover{
+  font-size: 45px;
 }
