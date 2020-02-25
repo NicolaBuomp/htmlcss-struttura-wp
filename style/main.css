@@ -8,15 +8,43 @@ body{
 }
 
 #page{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
-  background: #ccc;
+  background-image: url(../img/background-pagina.png);
+}
+.banner{
+  position: relative;
+  background-image: url(../img/banner.jpeg);
+  background-size: cover;
 }
 
 .main-header{
-  height: 100px;
   margin-bottom: 10px;
-  background: white;
+  text-align: center;
+}
+
+.headrer-navbar{
+  text-align: center;
+  margin:0;
+  padding:0;
+  height: 50px;
+  background: #333;
+}
+
+.headrer-navbar-item{
+  display: inline-block;
+
+}
+
+.headrer-navbar-item a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+
+.headrer-navbar-item a:hover{
+  background: #000;
 }
 
 .clearfix::after{
@@ -25,53 +53,93 @@ body{
   clear: both;
 }
 
-.navbar{
-  height: 50px;
-  width: 100%;
-  background: white;
-}
-
-.colonna-sx{
+.col{
   float: left;
-  width: 30%;
-  height: 250px;
-  margin: 10px;
+}
+
+.col-1 {
+  width: 25%;
+  padding: 0 16px;
+}
+
+.col-2{
+  width: 50%;
+  padding: 0 16px;
+}
+
+.col-3{
+  width: 25%;
+  padding: 0 16px;
+}
+
+.box-info{
   background: white;
 }
 
-.colonna-cent{
-  float: left;
-  width: 45%;
-  height: 600px;
-  margin: 10px;
-  background: white;
-}
-
-.colonna-dx{
-  float: left;
-  width: 20%;
-  height: 150px;
-  margin: 10px;
-  background: white;
-}
-
-.colonna-two-dx{
-  float: left;
-  width: 20%;
-  height: 150px;
-  margin: 10px;
-  background: white;
-}
-
-.colonna-three-dx{
-  float: left;
-  width: 20%;
-  height:150px;
-  margin: 10px;
-  background: white;
-}
-
-.footer{
+.list_box{
   padding: 20px;
+}
+
+.list_box-item{
+  margin: 10px;
+}
+
+.list_box-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.list_box-item a:hover{
+
+}
+
+.box-text{
   background: white;
+  margin-bottom: 30px;
+  padding:5px 20px;
+}
+
+.box-text h2{
+  text-align: center;
+  padding: 20px;
+}
+
+.box-img{
+  background: white;
+  margin-bottom: 10px;
+}
+
+.card__image{
+  width:100%;
+  height: auto;
+}
+
+.card-text{
+  padding:5px 20px;
+  text-align: center;
+}
+
+.main-footer{
+  text-align: center;
+}
+
+.footer-text{
+  height: 40px;
+  background: white;
+}
+
+.footer-list{
+  padding: 0;
+}
+
+.footer-list-item{
+  list-style: none;
+  float: left;
+  width: calc(100% / 3);
+  height: 40px;
+  background: white;
+}
+
+.footer-list-item a{
+  text-decoration: none;
 }
